@@ -4,14 +4,22 @@
     width: 100%;
     height: 60px;
     justify-content: space-between;
+    
 }
 .header_menu {
     margin-top: 20px;
     margin-right: 50px;
+    opacity: 1;
+    color: white;
 }
 
 .header_menu li {
     margin: 10px 0px;
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+    
+   
 }
 
 .header_img {
@@ -28,10 +36,10 @@
     width: 100px;
     text-align: right;
     margin: 15px 0px 0px -14px;
+    color: white;
 }
 
-.header_menu:hover ul,
-ul:hover {
+.header_menu:hover ul, ul:hover {
     display: block;
 }
 
